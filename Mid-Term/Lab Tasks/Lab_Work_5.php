@@ -31,7 +31,7 @@
                    body.style.backgroundColor = "black";
                    body.style.color="white";
                    title.innerHTML="Dark Mode";
-                   button.innerHTML="Switch to Light Mode"
+                   button.innerHTML="Switch to Light Mode";
                }
             }
         </script>
