@@ -39,4 +39,14 @@ function Reg(){
     Email: ${Email} <br>
     Phone Number: ${PhoneNumber}
     `;
+
+    return false;
+}
+
+function AddActivity(){
+    let Acti=document.getElementById("I6").value;
+    let DIV3=document.getElementById("D3");
+
+    DIV3.append(Acti);
+    return false;
 }
