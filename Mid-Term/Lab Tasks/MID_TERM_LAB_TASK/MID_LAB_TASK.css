@@ -3,7 +3,9 @@ body{
 }
 #F1{
     background-color: white;
-    width: 200px;
+    text-align: left;
+    padding: 0px 20px;
+    width: 450px;
     height: auto;
     border-radius: 20px;
 }
