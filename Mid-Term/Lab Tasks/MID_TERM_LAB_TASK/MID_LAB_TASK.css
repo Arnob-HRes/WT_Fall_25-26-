@@ -1,7 +1,7 @@
 body{
     background-color: skyblue;
 }
-#F1{
+.Mform{
     background-color: white;
     text-align: left;
     padding: 0px 20px;
@@ -11,5 +11,10 @@ body{
 }
 .MI{
     border-radius: 5px;
-    width: 400px;
+    width: 450px;
+    height: 25px;
+}
+.MB{
+    background-color: blue;
+    color: white;
 }
