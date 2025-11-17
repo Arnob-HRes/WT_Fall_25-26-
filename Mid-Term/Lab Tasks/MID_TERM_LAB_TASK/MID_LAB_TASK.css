@@ -1,0 +1,9 @@
+body{
+    background-color: skyblue;
+}
+#F1{
+    background-color: white;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
