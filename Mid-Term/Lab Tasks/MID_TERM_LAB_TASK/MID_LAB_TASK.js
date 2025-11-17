@@ -11,6 +11,7 @@ function Reg(){
         DIV1.style.backgroundColor = "indianred";
         DIV1.style.color = "white";
         DIV1.innerHTML = "Everything must not be empty";
+        return false;
     }
     
     let ValidEmail = Email.includes("@");
@@ -19,18 +20,21 @@ function Reg(){
         DIV1.style.backgroundColor = "indianred";
         DIV1.style.color = "white";
         DIV1.innerHTML = "Invalide Email! Must containt '@'";
+        return false;
     }
 
     if(isNaN(PhoneNumber)){
         DIV1.style.backgroundColor = "indianred";
         DIV1.style.color = "white";
         DIV1.innerHTML = "Phone Number Must be Numbers";
+        return false;
     }
 
     if(Password != ConfirmPassword){
         DIV1.style.backgroundColor = "indianred";
         DIV1.style.color = "white";
         DIV1.innerHTML = "Password and Confirm Password must match";
+        return false;
     }
 
     DIV2.innerHTML=`
@@ -48,5 +52,12 @@ function AddActivity(){
     let DIV3=document.getElementById("D3");
 
     DIV3.append(Acti);
+    return false;
+}
+
+function RemoveActivity(){
+    let DIV4=document.getElementById("D3");
+
+    DIV4.remove();
     return false;
 }
