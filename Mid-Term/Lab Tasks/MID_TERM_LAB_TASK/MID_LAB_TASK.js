@@ -5,7 +5,7 @@ function Reg(){
     let Password=document.getElementById("I4").value.trim();
     let ConfirmPassword=document.getElementById("I5").value.trim();
     let DIV1=document.getElementById("D1");
-    let DIV2=document.getElementById("D1");
+    let DIV2=document.getElementById("D2");
 
     if(FullName === "" || Email === "" || PhoneNumber === "" || Password === "" || ConfirmPassword === ""){
         DIV1.style.backgroundColor = "indianred";
@@ -31,8 +31,6 @@ function Reg(){
     }
 
     if(Password != ConfirmPassword){
-        DIV1.style.backgroundColor = "indianred";
-        DIV1.style.color = "white";
         DIV1.innerHTML = "Password and Confirm Password must match";
         return false;
     }
