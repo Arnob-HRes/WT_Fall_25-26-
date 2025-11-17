@@ -13,9 +13,23 @@ function Reg(){
     }
     
     let ValidEmail = Email.includes("@");
+
     if(ValidEmail === false){
         DIV.style.backgroundColor = "indianred";
         DIV.style.color = "white";
         DIV.innerHTML = "Invalide Email! Must containt '@'";
+    }
+
+    if(isNaN(PhoneNumber)){
+        DIV.style.backgroundColor = "indianred";
+        DIV.style.color = "white";
+        DIV.innerHTML = "Phone Number Must be Numbers";
+        return false;
+    }
+
+    if(Password != ConfirmPassword){
+        DIV.style.backgroundColor = "indianred";
+        DIV.style.color = "white";
+        DIV.innerHTML = "Password and Confirm Password must match";
     }
 }
