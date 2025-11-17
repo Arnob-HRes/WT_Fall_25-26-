@@ -32,4 +32,11 @@ function Reg(){
         DIV.style.color = "white";
         DIV.innerHTML = "Password and Confirm Password must match";
     }
+
+    DIV.innerHTML=`
+    Registration Successful <br>
+    Name: ${FullName} <br>
+    Email: ${Email} <br>
+    Phone Number: ${PhoneNumber}
+    `;
 }
