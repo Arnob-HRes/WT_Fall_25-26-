@@ -24,6 +24,9 @@
             border-radius: 10px;
             margin:20px;
         }
+        #B1:hover{
+            background-color: royalblue;
+        }
         #B2{
             width: 300px;
             height: 50px;
@@ -34,10 +37,14 @@
             border-radius: 10px;
             margin:20px;
         }
+        #B2:hover{
+            background-color: royalblue;
+            color: white;
+        }
         #D1{
             position: absolute;
             top:50px;
-            right: 250px;
+            right: 190px;
             background-color: white;
             width: auto;
             height: auto;
@@ -45,7 +52,7 @@
         #D2{
             position: absolute;
             top:120px;
-            right: 310px;
+            right: 210px;
             background-color: white;
             width: auto;
             height: auto;
@@ -57,17 +64,22 @@
             background-color: blue;
             border-radius: 20px;
             margin: 5px;
-            width: 700px;
+            width: 750px;
             height: 720px;
+        }
+        #T1{
+            position: absolute;
+            top: 640px;
+            right: 330px;
         }
     </style>
     <body>
         <div id="D3"></div>
         <div id="D1">
-            <h1 style="font-size: 40px;">Local Festival Stall</h1>
+            <h1 style="font-size: 35px;">Local Festival Stall Allocation</h1>
         </div>
         <div id="D2">
-            <h1 style="font-size: 40px;">Allocation</h1>
+            <h1 style="font-size: 35px;">& Fee Management System</h1>
         </div>
         <form id="F1">
             <hr>
@@ -79,5 +91,6 @@
             </button> <br>
             <hr>
         </form>
+        <h4 id="T1">@ARNOB SARKER SUPTA & HRIDRITA SAHA MOON 2025</h4>
     </body>
 </html>
