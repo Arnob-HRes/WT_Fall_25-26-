@@ -72,8 +72,15 @@
             top: 640px;
             right: 330px;
         }
+        #IMG1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        }
     </style>
     <body>
+        <img src="—Pngtree—geometric pattern white gold minimalist_1575961.png" alt="Background" id="IMG1">
         <div id="D3"></div>
         <div id="D1">
             <h1 style="font-size: 35px;">Local Festival Stall Allocation</h1>
